@@ -1,0 +1,268 @@
+/* * {
+    border: red solid 1px;
+} */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: #4F6FB0;
+    display: flex;
+    align-items: center;
+    padding-left: 3em;
+    width: 100%;
+    height: 3em;
+}
+nav a {
+    margin: 0;
+    color: white;
+    padding: 1em;
+    font-size: 1.2em;
+}
+nav a:hover{
+    font-size: 1.3em;
+    text-decoration: none;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/* ===================================== */
+
+.container {
+    display: flex;
+    flex-flow: column;
+    margin: 0 1em;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* ===================================== */
+
+#stats {
+    background: #DAF5CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    padding-right: 20px;
+}
+
+/* ===================================== */
+
+a {
+    color: #333FFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===================================== */
+
+.quiz {
+    display: flex;
+    margin: 1rem 0;
+}
+.quiz p {
+    font-size: 0.9rem;
+}
+
+/* ===================================== */
+
+#spotlight {
+    border: gray 1px solid;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    font-size: 0.9em;
+}
+h4 {
+    font-size: 1.2em;
+}
+
+/* ===================================== */
+
+aside {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    align-items: center;
+}
+aside h3 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+aside div {
+    background-color: #F2EAE1;
+    border-radius: 5px;
+    margin: .5rem;
+    padding: 0 1em;
+    width: 15em;
+    
+}
+aside ul {
+    position: relative;
+    width: 100%;
+    right: 2.5em;
+}
+aside li {
+    list-style: none;
+    
+}
+
+/* ===================================== */
+
+footer {
+    font-style: italic;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* =========================================================== */
+/* =========================================================== */
+
+@media (min-width: 900px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    nav {
+        background-color: #4F6FB0;
+        display: flex;
+        align-items: center;
+        padding-left: 3em;
+        height: 3em;
+    }
+    nav a {
+        margin: 0;
+        color: white;
+        padding: 2em;
+        font-size: 1.2em;
+    }
+    nav a:hover{
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+    
+    /* ===================================== */
+    
+    .container {
+        display: flex;
+        flex-flow: wrap;
+        margin-left: 2em;
+        justify-content: space-between;
+    }
+    
+    h1 {
+        font-weight: normal;
+        font-size: 2.5em;
+    }
+    
+    /* ===================================== */
+    
+    #stats {
+        background: #DAF5CC;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    img {
+        padding-right: 20px;
+    }
+    
+    /* ===================================== */
+    
+    a {
+        color: #333FFF;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    /* ===================================== */
+    
+    .quiz {
+        display: flex;
+        margin: 1rem 0;
+    }
+    .quiz p {
+        font-size: 0.9rem;
+    }
+    
+    /* ===================================== */
+    
+    #spotlight {
+        border: gray 1px solid;
+        border-radius: 5px;
+        padding: .5rem 1rem;
+        width: 50%;
+        font-size: 0.9em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    
+    /* ===================================== */
+    
+    aside {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        width: 40%;
+        height: 65em;
+    }
+    aside h3 {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    aside div {
+        background-color: #F2EAE1;
+        border-radius: 5px;
+        margin: .5rem;
+        padding: .25em .5rem;
+        width: 12em;
+    }
+    aside ul {
+        position: relative;
+        width: 100%;
+        right: 2.5em;
+    }
+    aside li {
+        list-style: none;
+        
+    }
+    
+    /* ===================================== */
+    
+    footer {
+        font-style: italic;
+        text-align: center;
+        padding: 1rem;
+    }
+
+} /* @media 900px End */
+    
